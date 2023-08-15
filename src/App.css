@@ -37,7 +37,7 @@
 .dark-theme{
     --title-color:hsl(0,0%,100%);
     --text-color:hsl(0,0%,80%);
-    --body-color:hsl(0, 0%, 1%);
+    --body-color:hsl(0, 0%, 0%);
     --container-color:hsl(0, 1%, 18%);
     --border-color:hsl(0,0%,15%);
 }

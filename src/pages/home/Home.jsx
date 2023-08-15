@@ -2,6 +2,11 @@ import React from "react";
 import Profile from "../../assets/home.jpg";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
+import Themes from "../../componants/Themes";
+import ThemeItem from "../../componants/ThemeItem";
+import { themes } from "../../data";
+import ProfileDark from "../../assets/home-black.png";
+
 import "./home.css";
 const Home = () => {
   return (

@@ -42,12 +42,12 @@ export const links = [
     path: '/about',
   },
 
-  {
-    id: 3,
-    name: 'Portfolio',
-    icon: <FaFolderOpen className='nav__icon' />,
-    path: '/portfolio',
-  },
+  // {
+  //   id: 3,
+  //   name: 'Portfolio',
+  //   icon: <FaFolderOpen className='nav__icon' />,
+  //   path: '/portfolio',
+  // },
 
   {
     id: 4,
