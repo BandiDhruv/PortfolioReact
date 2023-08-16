@@ -5,25 +5,22 @@ import { FaArrowRight } from "react-icons/fa";
 import Themes from "../../componants/Themes";
 import ThemeItem from "../../componants/ThemeItem";
 import { themes } from "../../data";
-import ProfileDark from "../../assets/home-black.png";
-
+import ProfileDark from "../../assets/home-black.jpg";
 import "./home.css";
 const Home = () => {
+
   return (
-    <section className="home section grid">
-      <img src={Profile} alt="" className="home__img" />
+<section className="home section grid">
+      <img src={Profile} alt="" className="home__img" />        
       <div className="home__content">
         <div className="home__data">
-          <h1 className="home__title">
-            <span>I'm Dhruv Bandi.</span>Web Designer
-          </h1>
+        <h1 className="home__title">
+    <span>I'm Dhruv Bandi.</span><br />{' '}
+    Web Designer
+</h1>
+
           <p className="home__description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
-            quibusdam accusantium necessitatibus beatae vero deleniti,
-            praesentium odio temporibus autem consequatur? Corrupti earum
-            repellendus perferendis? Laborum atque sapiente dolorum unde neque
-            ratione cumque, tenetur quidem excepturi? Consectetur fuga animi sit
-            accusantium!
+          Passionate Frontend Developer and Aspiring Full Stack Engineer, Crafting Seamless User Experiences and Shaping the Digital Frontier with Creativity and Code.
           </p>
           <Link to="/about" className="button">
             More About Me <span className="button__icon">

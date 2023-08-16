@@ -1,5 +1,5 @@
 .style__switcher{
-    position: fixed;
+    position:fixed;
     left: 0;
     top: 10%;
     background-color: var(--text-white);
@@ -13,9 +13,12 @@
 .show-switcher{
     transform: translateX(0);
 }
+
 .style__switcher,.style__switcher-toggler,.theme__toggler{
     border-radius: 0 5px 5px 0;
+
 }
+
 .style__switcher-item{
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -64,4 +67,59 @@
     position: absolute;
     top: 2%;
     right: 15px;
+}
+
+@media screen and (max-width:768px) {
+
+    .style__switcher-toggler{
+       margin-top: -20%;
+        left: 0;
+        /* display: none; */
+    }
+    .theme__toggler{
+        all: unset;
+        position: absolute;
+        margin-top: -6px;
+        left: 361px;
+        background-color: var(--text-white);
+        height: 50px;
+        width: 50px;
+        font-size: var(--large-font-size);
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+        box-shadow: 0 0 2px hsl(0, 0%, 80%);
+        transition: all .3s ease;
+
+    }
+    .show-switcher .style__switcher-toggle{
+        display: none;
+    }
+    .show-switcher .theme__toggler{
+        z-index: -50000;
+        display: none;
+    }
+    .show_icon{
+
+        display: inline-block;
+    }
+    .dont_show{
+        display: none;
+    }
+
+    .btn{
+        position: absolute;
+        left: 100%;
+        background-color: var(--text-white);
+        height: 50px;
+        width: 50px;
+        font-size: var(--large-font-size);
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+        box-shadow: 0 0 2px hsl(0, 0%, 80%);
+        /* transition: all .3s ease; */
+        
+    }
+
 }

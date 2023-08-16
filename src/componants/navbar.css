@@ -68,6 +68,47 @@
     transform: rotate(-45deg) translate(1px,1px);
 }
 
+@media screen and (max-width: 768px){
+    .nav__menu{
+        all: unset;
+    }
+
+    .nav__toggle{
+        display: none; 
+    }
+
+    .nav__list{
+        display: flex; 
+        background-color: var(--body-color);
+        justify-content: space-around; 
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .nav__link{
+        border-bottom: 1px solid var(--border-color); 
+        padding: 14px 0; 
+    }
+
+    .nav__icon,
+    .nav__name{
+        font-size: 20px; 
+        
+    }
+    .nav__name{
+        position: relative;
+        left: -10%;
+    }
+}
+
+
+
+
+
+
+
 @media screen and (min-width:1024px) {
     .nav__menu{
         all:unset;

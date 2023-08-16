@@ -13,6 +13,7 @@
     --text-white:#fff;
 
 
+
     --body-font:'Open Sans', sans-serif;
     --second-font: 'Poppins', sans-serif;
 
@@ -36,9 +37,9 @@
 
 .dark-theme{
     --title-color:hsl(0,0%,100%);
-    --text-color:hsl(0,0%,80%);
-    --body-color:hsl(0, 0%, 0%);
-    --container-color:hsl(0, 1%, 18%);
+    --text-color:hsl(0, 17%, 83%);
+    --body-color:hsl(0, 3%, 7%);
+    --container-color:hsl(0, 5%, 78%);
     --border-color:hsl(0,0%,15%);
 }
 
@@ -80,6 +81,7 @@ button,input,textarea{
     background-color: transparent;
     border: none;
     outline: none;
+    
 
 }
 img{

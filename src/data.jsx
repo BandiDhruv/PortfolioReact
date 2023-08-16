@@ -102,15 +102,15 @@ export const personalInfo = [
 
   {
     id: 8,
+    title: 'Langages : ',
+    description: 'Hindi, English',
+  },
+  {
+    id: 9,
     title: 'Email : ',
     description: 'dhruvbaXXXXX@gmail.com',
   },
 
-  {
-    id: 9,
-    title: 'Langages : ',
-    description: 'Hindi, English',
-  },
 ];
 
 export const stats = [
@@ -122,19 +122,19 @@ export const stats = [
 
   {
     id: 2,
-    no: '7+',
+    no: '2+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '1+',
+    no: '5+',
     title: 'Happy <br /> Customers',
   },
 
   {
     id: 4,
-    no: '0+',
+    no: '1+',
     title: ' Awards <br /> Won',
   },
 ];
@@ -145,8 +145,8 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2023',
-    title: 'Web Developer: <span> FreeLance </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    title: 'Web Developer: <span> Mini-Project </span>',
+    desc: 'Front-End Developement of Medical - Website',
   },
 
   {
@@ -155,7 +155,16 @@ export const resume = [
     icon: <FaBriefcase />,
     year: '2023 ',
     title: 'UI/UX Designer: <span> Mini-Project </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    desc: 'Figma Design in a Medical Website',
+  },
+
+  {
+    id: 3,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: '2023 ',
+    title: 'TA: <span> Computer Programming</span>',
+    desc: `Teacher's Assistant in LNM Institue of Technology `,
   },
 
   // {
@@ -171,9 +180,17 @@ export const resume = [
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2021',
-    title: 'High School: <span> Green Field Public School</span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2018-2019',
+    title: '10th School: <span> Choithram School Nipania , Indore (MP)</span>',
+    desc: '93% in 10th Class ',
+  },
+  {
+    id: 5,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2020-2021',
+    title: '12th School: <span> Green Field Public School, Indore (MP)</span>',
+    desc: '81% in 12th Class ',
   },
 
 
@@ -183,8 +200,8 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2021-2025',
-    title: 'Bachelor Degree: <span> LNM Institute of Information Technology </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    title: 'Bachelor Degree: <span> LNM Institute of Information Technology , Jaipur (Rajasthan)</span>',
+    desc: 'CGPA: 7.27',
   },
 ];
 
@@ -234,7 +251,28 @@ export const skills = [
     id:8,
     title:'DSA',
     percentage:'40',
-  }
+  },
+
+  {
+    id:9,
+    title:'DBMS',
+    percentage:'75',
+  },
+  {
+    id:10,
+    title:'OS',
+    percentage:'40',
+  },
+  {
+    id:11,
+    title:'AP',
+    percentage:'35',
+  },
+  {
+    id:12,
+    title:'CP',
+    percentage:'70',
+  },
 ];
 
 export const portfolio = [

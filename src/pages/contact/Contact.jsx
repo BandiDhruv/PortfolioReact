@@ -45,6 +45,7 @@ const Contact = () => {
         <div className="contact__data">
           <h3 className="contact__title">Don't be Shy!</h3>
           <p className="contact__description">
+          I'm actively seeking new opportunities and I welcome any feedback or inquiries. 
             Feel free to get in touch with me. I am always open to discussing
             new projects, creative ideas or opportunities to be part of your
             vision.
